@@ -86,5 +86,16 @@ a:focus {
     border-radius: 3px;
     text-decoration: none;
   }
+  a[href^="http"]:after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("external-link-52.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+  }
+  
 
   
