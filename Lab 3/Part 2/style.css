@@ -5,5 +5,8 @@ html {
 .box {
     width: 200px;
     height:150px;
+    display: flex; 
+    justify-content: center;
+    margin: 50px auto; 
 }
   
