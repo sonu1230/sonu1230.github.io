@@ -8,6 +8,9 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    font-family: Arial, sans-series;
+    font-size: 10px;
+    line-height: 1.6;
   }
   
   /* Layout */
