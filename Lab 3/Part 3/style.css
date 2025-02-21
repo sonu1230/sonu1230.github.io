@@ -73,4 +73,11 @@
   a:visited {
     color: #844; 
   }
+  a:hover,
+a:focus {
+  color: #c77; 
+  text-decoration: none; 
+  outline: none; 
+}
+
   
