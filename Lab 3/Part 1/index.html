@@ -12,7 +12,7 @@ h1 {
   color: #ff69b4; /* Pink color */
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 8px dotted #800080; /* Purple dotted line */
+  border-bottom: 10px dotted #800080; /* Purple dotted line */
  
   padding-bottom: 5px;
 }
@@ -26,13 +26,18 @@ h2 {
   font-weight: bold;
 }
 
-a:link,
-a:visited {
-  color: #fb6542;
+a[href^="mailto:"] {
+  color: green; 
 }
 
-a:hover {
-  text-decoration: none;
+a[href^="http"] {
+  color: red; 
+}
+a:visited {
+  color: #FF0000;
+}
+
+
 }
 </style>
 <h1>Jane Doe</h1>
