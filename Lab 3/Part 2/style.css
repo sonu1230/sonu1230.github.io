@@ -22,6 +22,9 @@ html {
         rgba(0, 0, 0, 0.2) 30%, 
         rgba(0, 0, 0, 0.2) 100%
     );
-
+    box-shadow: 
+        4px 4px 8px rgba(0, 0, 0, 0.3),  
+        inset 2px 2px 5px rgba(255, 255, 255, 0.4), 
+        inset -3px -3px 6px rgba(0, 0, 0, 0.4); 
 }
   
