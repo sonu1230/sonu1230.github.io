@@ -64,3 +64,13 @@
   p {
     margin-bottom: 1rem;
   }
+  a {
+    color: #a66; 
+    text-decoration: underline; 
+  }
+  
+  
+  a:visited {
+    color: #844; 
+  }
+  
