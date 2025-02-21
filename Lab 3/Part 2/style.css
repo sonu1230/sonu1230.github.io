@@ -8,5 +8,8 @@ html {
     display: flex; 
     justify-content: center;
     margin: 50px auto; 
+    font-size: 1.1rem; 
+    background-color: #ee3a3a; 
+    color: #fff;
 }
   
