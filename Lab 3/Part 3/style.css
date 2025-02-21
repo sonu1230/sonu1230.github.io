@@ -78,6 +78,13 @@ a:focus {
   color: #c77; 
   text-decoration: none; 
   outline: none; 
-}
+ }
+ a:active {
+    color: white; 
+    background-color: #a66; 
+    padding: 2px 4px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
 
   
