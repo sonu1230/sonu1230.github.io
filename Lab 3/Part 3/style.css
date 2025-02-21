@@ -3,6 +3,22 @@
 * {
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: 'BodyFont';
+    src: url('body-font.woff2') format('woff2'),
+         url('body-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'HeadingFont';
+    src: url('heading-font.woff2') format('woff2'),
+         url('heading-font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+
   
   body {
     margin: 0 auto;
@@ -51,6 +67,13 @@
     margin-top: 0;
     margin-bottom: 1rem;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: cursive;
+    
+  }
+
+
+  
   body {
 
     letter-spacing: 0.05rem; 
@@ -124,7 +147,11 @@ a:focus {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
-  
-
-  
+  nav ul li{
+    border: 1px solid;
+    border-color: #a66;
+    margin-top: 20px;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+  }
