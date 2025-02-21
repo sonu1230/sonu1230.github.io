@@ -113,6 +113,17 @@ a:focus {
     position: relative;
     padding-left: 1.5rem; 
   }
+  ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.4rem; 
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url("Bulletpoint-512.webp"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   
   
 
