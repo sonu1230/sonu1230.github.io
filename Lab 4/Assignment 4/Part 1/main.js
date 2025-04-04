@@ -30,6 +30,10 @@ function result() {
   const yItem = randomValueFromArray(insertY);
   const zItem = randomValueFromArray(insertZ);
 
+  newStory = newStory.replaceAll(':insertx:',xItem);
+  newStory = newStory.replaceAll(':inserty:',yItem);
+  newStory = newStory.replaceAll(':insertz:',zItem);
+
   if(customName.value !== '') {
     const name = customName.value;
 
