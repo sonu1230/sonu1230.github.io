@@ -26,6 +26,17 @@ class Shape {
     this.velY = velY;
    
   }
+}  
+class Ball extends Shape {
+
+    constructor(x, y, velX, velY, color, size) {
+      super(x, y, velX, velY);
+  
+      this.color = color;
+      this.size = size;
+      this.exists = true;
+    }
+  
 
   draw() {
     ctx.beginPath();
@@ -33,6 +44,8 @@ class Shape {
     ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
     ctx.fill();
   }
+
+
 
   update() {
     if (this.x + this.size >= width) {
