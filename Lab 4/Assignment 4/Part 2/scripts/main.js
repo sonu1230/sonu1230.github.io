@@ -20,8 +20,8 @@ const altTexts = {
 
 imageFiles.forEach(file => {
 const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
+newImage.setAttribute('src', `images/${file}` );
+newImage.setAttribute('alt', altTexts[file]);
 thumbBar.appendChild(newImage);
 
 newImage.addEventListener('click', () => {
