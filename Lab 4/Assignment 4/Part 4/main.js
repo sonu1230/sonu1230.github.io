@@ -83,6 +83,14 @@ class Ball extends Shape {
     }
   
 }
+class EvilCircle extends Shape {
+
+    constructor(x, y) {
+      super(x, y, 20, 20);
+  
+      this.color = "white";
+      this.size = 10;
+  
 
 const balls = [];
 
